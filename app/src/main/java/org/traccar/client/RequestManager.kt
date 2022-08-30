@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 @file:Suppress("DEPRECATION")
-package org.traccar.client
+package app.datatrak.client
 
 import android.os.AsyncTask
 import android.util.Log

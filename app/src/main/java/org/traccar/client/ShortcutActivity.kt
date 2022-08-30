@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.traccar.client
+package app.datatrak.client
 
 import android.Manifest
 import android.content.Intent
@@ -30,10 +30,10 @@ import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.preference.PreferenceManager
-import org.traccar.client.PositionProvider.PositionListener
-import org.traccar.client.ProtocolFormatter.formatRequest
-import org.traccar.client.RequestManager.RequestHandler
-import org.traccar.client.RequestManager.sendRequestAsync
+import app.datatrak.client.PositionProvider.PositionListener
+import app.datatrak.client.ProtocolFormatter.formatRequest
+import app.datatrak.client.RequestManager.RequestHandler
+import app.datatrak.client.RequestManager.sendRequestAsync
 
 class ShortcutActivity : AppCompatActivity() {
 

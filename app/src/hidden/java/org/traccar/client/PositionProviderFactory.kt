@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.traccar.client
+package app.datatrak.client
 
 import android.content.Context
-import org.traccar.client.PositionProvider.PositionListener
+import app.datatrak.client.PositionProvider.PositionListener
 
 object PositionProviderFactory {
 

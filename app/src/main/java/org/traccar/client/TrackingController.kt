@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.traccar.client
+package app.datatrak.client
 
 import android.content.Context
-import org.traccar.client.ProtocolFormatter.formatRequest
-import org.traccar.client.RequestManager.sendRequestAsync
-import org.traccar.client.PositionProvider.PositionListener
-import org.traccar.client.NetworkManager.NetworkHandler
+import app.datatrak.client.ProtocolFormatter.formatRequest
+import app.datatrak.client.RequestManager.sendRequestAsync
+import app.datatrak.client.PositionProvider.PositionListener
+import app.datatrak.client.NetworkManager.NetworkHandler
 import android.os.Handler
 import android.os.Looper
 import androidx.preference.PreferenceManager
 import android.util.Log
-import org.traccar.client.DatabaseHelper.DatabaseHandler
-import org.traccar.client.RequestManager.RequestHandler
+import app.datatrak.client.DatabaseHelper.DatabaseHandler
+import app.datatrak.client.RequestManager.RequestHandler
 
 class TrackingController(private val context: Context) : PositionListener, NetworkHandler {
 

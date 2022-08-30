@@ -5,7 +5,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        applicationId 'org.traccar.client'
+        applicationId 'app.datatrak.client'
         buildConfigField 'boolean', 'HIDDEN_APP', 'false'
         minSdkVersion 16
         targetSdkVersion 32
@@ -13,7 +13,7 @@ android {
         versionName '6.17'
         multiDexEnabled true
     }
-    namespace 'org.traccar.client'
+    namespace 'app.datatrak.client'
 
     packagingOptions {
         resources {
@@ -28,7 +28,7 @@ android {
         }
         google
         hidden {
-            applicationId 'org.traccar.client.hidden'
+            applicationId 'app.datatrak.client.hidden'
             buildConfigField 'boolean', 'HIDDEN_APP', 'true'
         }
     }
