@@ -3,5 +3,7 @@
 local.properties
 *.iml
 build/
+app/build/
+app/regular/
 .DS_Store
 google-services.json
